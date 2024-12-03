@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#hero{
+    background: url("images/torshov.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    }
+
+#title{
+    background: #1D3557;
+    font-size: 20px;
+    padding: 8px 6px;
+    border-radius: 10px;
+    margin: 100px 0 5px 0;
+}
+
+#hero-info{
+    background: #457B9D;
+    font-size: 12px;
+    margin: 0 150px;
+    padding: 8px 6px;
+    border-radius: 10px;
+}
+
+#activities{
+    background: #F1FAEE ;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#activities-info{
+    margin-top: 0;
+    font-weight: 200px; 
+    padding-bottom: 10px;     
+}
+
+.park-info-images{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin: 0 12px;
+}
+
+.park-info-headings{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px 0px 10px;
+    
+}
+
+.park-info-para{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.location{
+    border-radius: 100%;
+}
+
+.para-style{
+    margin: 0 10px;
+    text-align: center;
+    width: 400px;
+}
+
+#guide{
+ display: flex;
+ justify-content: center;
+ border-bottom: 8px solid #1D3557;
+ background: #A8DADC;
+ height: 300px;
+ width: 400px;
+ margin-bottom: 50px;
+ margin-top: 50px;
+ margin-right: auto;
+ margin-left: auto;
+ border-radius: 10px;   
+}
+
+
+#guide-card-info{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px; 
+    justify-content: center;
+    color: #1D3557;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+#guide-title{
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+#guide-name{
+    margin-top: 0;
+}
+
+#guide-img{
+    height: 250px;
+    width: 200px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
